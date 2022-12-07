@@ -22,7 +22,7 @@ img {
 
 #header {
     width: auto;
-    height: 107.8px;
+    height: auto;
     border-bottom: 1px solid #d2d2d2;
 }
 
@@ -42,7 +42,7 @@ nav {
 
 .ul-menu li {
     display: inline;
-    padding: 42.2px 20px 42.2px 20px;
+    padding: 42px 20px 41.7px 20px;
     background-color: #fff;
     transition: background-color 0.24s linear; /* fade-in effekt på menu hover */
     border-left: 1px solid #d2d2d2;
@@ -114,7 +114,7 @@ footer {
 
 .footer_grid p {
     font-size: 0.8rem;
-    padding: 5px 0px 5px 0px;
+    padding: 2px 0px 2px 0px;
     color: #cbcbcb;
 }
 
@@ -126,7 +126,7 @@ footer {
 }
 
 
-#footer_link_box {
+.footer_link_box {
     width: 40px;
     padding: 1px 0px 1px 0px;
 }
