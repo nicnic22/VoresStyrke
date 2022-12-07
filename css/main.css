@@ -12,7 +12,7 @@
 
 * {
     margin: 0;
-    font-family: Oswald-regular;
+    font-family: Oswald-light;
 }
 
 img {
@@ -22,13 +22,13 @@ img {
 
 #header {
     width: auto;
-    height: 123.7px;
+    height: 107.5px;
 }
 
-#logo {
+#main_logo {
     width: 200px;
     float: left;
-    padding: 10px 0px 0px 10px;
+    padding: 8px 0px 0px 10px;
 }
 
 nav {
@@ -41,7 +41,7 @@ nav {
 
 .ul-menu li {
     display: inline;
-    padding: 50px 20px 50px 20px;
+    padding: 42.2px 20px 42.2px 20px;
     background-color: #fff;
     transition: background-color 0.24s linear; /* fade-in effekt på menu hover */
     border-left: 1px solid #d2d2d2;
@@ -52,6 +52,7 @@ nav {
     font-size: 0.8rem;
     color: #757575;
     letter-spacing: 2.2px;
+    font-family: Oswald-regular;
 }
 
 .ul-menu li:hover {
@@ -80,13 +81,6 @@ nav {
 
 
 
-.grid_1-1-1 {
-    display: inline-grid;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-
-
 
 
 
@@ -96,4 +90,39 @@ nav {
 footer {
     background-color: rgb(50, 50, 50);
     color: #fff;
+}
+
+
+.footer_grid {
+    display: inline-grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40px 30px 10px 30px;
+}
+
+.footer_grid h2 {
+    font-size: 1.2rem;
+}
+
+.footer_grid p {
+    font-size: 0.8rem;
+}
+
+
+.footer_grid_item1 {
+    text-align: left;
+}
+
+.footer_grid_item2 {
+    text-align: left;
+}
+
+.footer_grid_item3 {
+    text-align: left;
+}
+
+
+#footer_link_box {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
 }
