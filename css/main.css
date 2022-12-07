@@ -22,13 +22,14 @@ img {
 
 #header {
     width: auto;
-    height: 107.5px;
+    height: 107.8px;
+    border-bottom: 1px solid #d2d2d2;
 }
 
 #main_logo {
     width: 200px;
     float: left;
-    padding: 8px 0px 0px 10px;
+    padding: 8px 0px 0px 20px;
 }
 
 nav {
@@ -49,15 +50,16 @@ nav {
 
 .ul-menu li a {
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 0.86rem;
     color: #757575;
-    letter-spacing: 2.2px;
+    letter-spacing: 2.5px;
     font-family: Oswald-regular;
 }
 
 .ul-menu li:hover {
     background-color: #48763b;      /* PROBLEM MED HOVER: hvordan får man hele li til at være et link når man hover, i stedet for kun href? */
     color: #fff;
+    border-bottom: 1px solid #48763b;
 }
 
 .ul-menu li:hover a {
@@ -107,6 +109,7 @@ footer {
 
 .footer_grid h2 {
     font-size: 1.2rem;
+    padding-bottom: 10px;
 }
 
 .footer_grid p {
@@ -116,26 +119,14 @@ footer {
 }
 
 
-.footer_grid_item1 {
+.footer_grid_item1, .footer_grid_item2, .footer_grid_item3 {
     text-align: left;
-    padding: 20px;
-    margin: 0 auto 0 auto;
-}
-
-.footer_grid_item2 {
-    text-align: left;
-    padding: 20px;
-    margin: 0 auto 0 auto;
-}
-
-.footer_grid_item3 {
-    text-align: left;
-    padding: 20px;
+    padding: 24px;
     margin: 0 auto 0 auto;
 }
 
 
 #footer_link_box {
     width: 40px;
-    padding: 5px 0px 5px 0px;
+    padding: 1px 0px 1px 0px;
 }
