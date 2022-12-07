@@ -7,6 +7,57 @@ img {
     height: 100%;
 }
 
+#header {
+    width: auto;
+    height: 100px;
+}
+
+#logo {
+    width: 200px;
+    float: left;
+    padding: 10px 0px 0px 10px;
+}
+
+nav {
+    float: right;
+}
+
+.ul-menu {
+    margin-top: 40px;
+}
+
+.ul-menu li {
+    display: inline;
+    padding: 50px 20px 50px 20px;
+    background-color: #fff;
+    transition: background-color 0.24s linear; /* fade-in effekt på menu hover */
+}
+
+.ul-menu li a {
+    text-decoration: none;
+}
+
+.ul-menu li:hover {
+    background-color: #48763b;
+    color: #fff;
+}
+
+.ul-menu li:hover a {
+    color: #fff;
+}
+
+
+
+
+
+
+#content {
+    width: auto;
+    height: 400px;
+}
+
+
+
 
 
 
@@ -14,4 +65,17 @@ img {
 .grid_1-1-1 {
     display: inline-grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: rgb(50, 50, 50);
+    color: #fff;
 }
