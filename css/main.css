@@ -1,5 +1,18 @@
+@font-face {
+    font-family: Oswald-regular;
+    src: url(fonts/oswald.regular.ttf);
+}
+
+@font-face {
+    font-family: Oswald-light;
+    src: url(fonts/oswald.light.ttf);
+}
+
+
+
 * {
     margin: 0;
+    font-family: Oswald-regular;
 }
 
 img {
@@ -9,7 +22,7 @@ img {
 
 #header {
     width: auto;
-    height: 100px;
+    height: 123.7px;
 }
 
 #logo {
@@ -23,7 +36,7 @@ nav {
 }
 
 .ul-menu {
-    margin-top: 40px;
+    display: flex;
 }
 
 .ul-menu li {
@@ -31,14 +44,18 @@ nav {
     padding: 50px 20px 50px 20px;
     background-color: #fff;
     transition: background-color 0.24s linear; /* fade-in effekt på menu hover */
+    border-left: 1px solid #d2d2d2;
 }
 
 .ul-menu li a {
     text-decoration: none;
+    font-size: 0.8rem;
+    color: #757575;
+    letter-spacing: 2.2px;
 }
 
 .ul-menu li:hover {
-    background-color: #48763b;
+    background-color: #48763b;      /* PROBLEM MED HOVER: hvordan får man hele li til at være et link når man hover, i stedet for kun href? */
     color: #fff;
 }
 
@@ -54,6 +71,7 @@ nav {
 #content {
     width: auto;
     height: 400px;
+    background-color: grey;
 }
 
 
