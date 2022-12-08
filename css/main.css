@@ -12,6 +12,7 @@
 
 * {
     margin: 0;
+    box-sizing: border-box;
     font-family: Oswald-light;
 }
 
@@ -100,7 +101,7 @@ footer {
 }
 
 .footer_grid {
-    display: inline-grid;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 0px 30px 30px 30px;
     gap: 30px;
