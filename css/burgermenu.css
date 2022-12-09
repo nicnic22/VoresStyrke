@@ -16,7 +16,7 @@
   
     /* 2. Få elementerne til at stå ved siden af hinanden */
     display: flex;
-    gap: 1rem;
+    /* gap: 1rem; */
   }
   
   /* burgermenu */
