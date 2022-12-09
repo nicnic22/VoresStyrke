@@ -63,3 +63,61 @@ h1 {
 .icon {
     max-height: 100px;
 }
+
+#grid_content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    margin-top: 80px;
+}
+
+#grid_content > div {
+    grid-template-columns: 1;
+    margin-left: 40px;
+    display: grid;
+    align-self: center;
+}
+
+#grid_content > div > h2 {
+    font-size: 3rem;
+    color: var(--brand-color-main);
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-family: Oswald-regular;
+}
+
+#grid_content > div > p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    color: var(--brand-color-fourth);
+    margin-bottom: 20px;
+}
+
+#grid_content > div > a {
+    place-self: end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: var(--brand-color-second);
+    background-color: var(--brand-color-main);
+    font-size: 1.5rem;
+    padding: 10px 20px 9px 20px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+#grid_content > div > a:hover {
+    background-color: var(--brand-color-third);
+    color: var(--brand-color-fourth);
+    scale: 1.1;
+    transition: 1s;
+}
+
+#grid_content > figure {
+    grid-template-columns: 2;
+}
+
+#grid_content > figure > img {
+    max-height: 400px;
+    object-fit: cover;
+}
