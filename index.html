@@ -5,6 +5,7 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/main.css">
 <link rel="stylesheet" href="css/screens.css">
+<link rel="stylesheet" href="css/burgermenu.css">
 <link rel="stylesheet" href="css/index.css"> <!-- LAV OM TIL CSS FIL DER TILHØRER DIN HTML SIDE (fx kontakt.html = lav index.css om til kontakt.css) -->
 
 </head>
@@ -13,7 +14,8 @@
 <header>
     <div id="header">
         <div id="main_logo"><a href="index.html"><img src="img/logo.png" alt="logo"></a></div>
-        <nav>
+        <nav class="main-menu">
+            <button class="toggle-btn">Menu</button>
             <ul class="ul-menu">
                 <li><a href="index.html">Forside</a></li>
                 <li><a href="om-os.html">Om Vores Styrke</a></li>
@@ -27,7 +29,39 @@
 </header>
 
 <main>
-<div id="content">
+    <div id="hero">
+        <img src="img/1.webp" alt="Hold billede fra Vores Styrke">
+        <div id="hero_content">
+            <h1>Personlig træning i din retning</h1>
+            <a id="hero_knap" href="vi-tilbyder.html">Vi Tilbyder</a>
+        </div>
+    </div>
+    <div id="icon_wrapper">
+        <div id="icon_1">
+            <img class="icon" src="img/heart-sign.svg" alt="ikon af hjerte">
+            <p>Kom i dit livs form</p>
+        </div>
+        <div id="icon_2">
+            <img class="icon" src="img/user-arrows.svg" alt="ikon af 2 personer">
+            <p>Træn med andre</p>
+        </div>
+        <div id="icon_3">
+            <img class="icon" src="img/utensils.svg" alt="ikon af kniv og bestik">
+            <p>personlig kostplan</p>
+        </div>
+    </div>
+    <section id="grid_content">
+        <div>
+            <h2>Velkommen til vores styrke</h2>
+            <p>Vi tilbyder individuelt tilpasset træningsforløb og kostvejledning, som 1:1 træning eller på små hold. Kontakt os for at høre nærmere om de forskellige muligheder for træning og hvad der passer bedst til dig.</p>
+            <a href="kontakt.html">Kontakt Os</a>
+        </div>
+        <figure>
+            <img src="img/2.webp" alt="Personlig kontakt med din træner">
+        </figure>
+    </section>
+    
+    
 
 
 
@@ -36,7 +70,6 @@
 
 
 
-</div> <!-- content -->
 </main>
 
 
@@ -58,9 +91,9 @@
             </div>
             <div class="footer_grid_item3">
                 <h2>Links</h2>
-                <div class="footer_link_box"><a href="#"><img src="img/facebook.png"></a></div>
-                <div class="footer_link_box"><a href="#"><img src="img/instagram.png"></a></div>
-                <div class="footer_link_box"><a href="#"><img src="img/email.png"></a></div>
+                <div class="footer_link_box"><a href="https://www.facebook.com/voresstyrke/" target="_blank"><img src="img/facebook.png"></a></div>
+                <div class="footer_link_box"><a href="https://www.instagram.com/voresstyrke.personaltrainer/" target="_blank"><img src="img/instagram.png"></a></div>
+                <div class="footer_link_box"><a href="kontakt.html"><img src="img/email.png"></a></div>
                 <div style="clear:both"></div>
             </div>
         </div> <!-- footer_grid -->
@@ -68,5 +101,7 @@
 </footer>
 
 </div> <!-- wrapper -->
+<script src="js/burgermenu.js"></script>
+<script src="js/login.js"></script>
 </body>
 </html>
