@@ -147,7 +147,7 @@ section#om-os>figure {
     color: rgba(3, 50, 3, 0.786);
     padding: 5px 20px;
 }
-#kundeHistorier>h2 {
+#kundeHistorier h2 {
     grid-row: 1/2;
     font-weight: bold;
     font-size: 30px;
