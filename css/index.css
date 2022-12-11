@@ -213,6 +213,13 @@ article video {
     margin-left: -30px;
     text-decoration: none;
     color: var(--brand-color-fourth);
+    transition: 0.8s;
+}
+
+#content_tina_diplomer > ul a:hover {
+    background-color: var(--brand-color-third);
+    padding: 4px 8px 3px 0px;
+    transition: 0.8s;
 }
 
 .custom_2_ord {
