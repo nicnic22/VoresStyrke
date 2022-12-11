@@ -121,3 +121,52 @@ h1 {
     max-height: 400px;
     object-fit: cover;
 }
+
+#kundeHistorier {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    background-color: rgba(0, 128, 0, 0.629);
+    color: rgba(3, 50, 3, 0.786);
+    padding: 5px 20px;
+}
+#kundeHistorier>h2 {
+    grid-row: 1/2;
+    font-weight: bold;
+    font-size: 30px;
+}
+#kundeHistorier h3 {
+    font-style: italic;
+    color: rgb(1, 57, 1);
+}
+#kundeHistorier h4 {
+    font-weight: lighter;
+    font-style: italic;
+    color: rgba(4, 64, 4, 0.812);
+}
+.beretning {
+    grid-row: 2/2;
+}
+.ekstra {
+    display: none;
+}
+
+@media (min-width: 600px) {
+
+    #kundeHistorier {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 5fr;
+        gap: 20px;
+    }
+    #kundeHistorier>h2 {
+        grid-column: span 3;
+        grid-row: 1/2;
+    }
+    .beretning {
+        grid-row: 2/2;
+    }
+    .ekstra {
+        display: block;
+    }
+
+}
