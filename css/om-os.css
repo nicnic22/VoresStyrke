@@ -100,10 +100,25 @@ section#om-os>figure {
 #om-os_til-kontakt>.text {
     grid-column: 1/2;
     grid-row: 2/3;
+    line-height: 1rem;
 }
-#om-os_til-kontakt>button {
-    grid-column: 1/2;
-    grid-row: 3/4;
+#kontakt-knap {
+    place-self: end;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: var(--brand-color-second);
+    background-color: var(--brand-color-main);
+    font-size: 1.5rem;
+    padding: 10px 20px 9px 20px;
+    text-transform: uppercase;
+    transition: 1s;
+}
+#kontakt-knap:hover {
+    background-color: var(--brand-color-third);
+    color: var(--brand-color-fourth);
+    scale: 1.1;
+    transition: 1s;
 }
 #om-os_til-kontakt>figure {
     grid-column: 1/2;
@@ -223,10 +238,6 @@ section#om-os>figure {
     #om-os_til-kontakt>.text {
         grid-column: 1/2;
         grid-row: 2/4;
-    }
-    #om-os_til-kontakt>button {
-        grid-column: 1/2;
-        grid-row: 3/4;
     }
     #om-os_til-kontakt>figure {
         grid-column: 2/4;
