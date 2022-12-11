@@ -155,7 +155,7 @@ article p {
     color: var(--brand-color-fourth);
 }
 
-#video_content {
+#videoContainer {
     grid-column: 1;
 }
 
@@ -168,6 +168,8 @@ article p {
 article video {
     width: 100%;
 }
+
+
 
 #content_tina_diplomer {
     display: grid;
@@ -293,3 +295,6 @@ article img {
     }
 
 }
+
+  
+  
