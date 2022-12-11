@@ -162,7 +162,7 @@ section#om-os>figure {
     color: var(--brand-color-second);
     padding: 20px;
 }
-#kundeHistorier>h2 {
+#kundeHistorier h2 {
     grid-row: 1/2;
     font-weight: bold;
     font-size: 30px;

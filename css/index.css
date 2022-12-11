@@ -1,3 +1,8 @@
+#icon_wrapper,
+#grid_content,
+article {
+    margin: 40px;
+}
 
 #hero {
     display: grid;
@@ -25,7 +30,7 @@
     place-items: center;
 }
 
-h1 {
+#h2_hero {
     color: var(--brand-color-second);
     font-family: Oswald-regular;
     font-size: 4rem;
@@ -67,30 +72,36 @@ h1 {
 #grid_content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
+    gap: 60px;
     margin-top: 80px;
 }
 
 #grid_content > div {
     grid-template-columns: 1;
-    margin-left: 40px;
+    margin-left: 20px;
     display: grid;
     align-self: center;
 }
 
-#grid_content > div > h2 {
+#grid_content > div > h1 {
     font-size: 3rem;
-    color: var(--brand-color-main);
+    color: var(--brand-color-fourth);
     text-transform: uppercase;
     margin-bottom: 40px;
+    font-family: Oswald-light;
+}
+
+span {
+    color: var(--brand-color-main);
     font-family: Oswald-regular;
+    
 }
 
 #grid_content > div > p {
     font-size: 1.5rem;
     line-height: 2.5rem;
     color: var(--brand-color-fourth);
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 #grid_content > div > a {
@@ -122,14 +133,65 @@ h1 {
     object-fit: cover;
 }
 
+/* Video og Tina frederiksen blok */
+article {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    gap: 40px;
+}
+
+#video_content {
+    grid-column: 1;
+}
+
+#content_tina {
+    grid-column: 2;
+}
+
+article video {
+    width: 100%;
+}
+
+#content_tina_diplomer {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+#ikon_download {
+    grid-column: 1;
+}
+
+#content_tina_diplomer > ul {
+    grid-column: 2;
+}
+
+article a {
+    font-family: Oswald-light;
+}
+
+article img {
+    max-width: 30px;
+}
+
+/* Kunder siger blok ---- kode taget fra om os side --- mobile first design */
+#wrapper_kundeHistorier {
+    background-color: rgba(0, 128, 0, 0.629);
+}
+
 #kundeHistorier {
     display: grid;
     grid-template-rows: 1fr 3fr;
-    background-color: rgba(0, 128, 0, 0.629);
-    color: rgba(3, 50, 3, 0.786);
-    padding: 5px 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: var(--brand-color-second);
+    padding: 30px 20px;
+
+    font-family: Oswald-regular;
 }
-#kundeHistorier>h2 {
+
+
+#kundeHistorier h2 {
     grid-row: 1/2;
     font-weight: bold;
     font-size: 30px;
@@ -143,6 +205,12 @@ h1 {
     font-style: italic;
     color: rgba(4, 64, 4, 0.812);
 }
+
+#kundeHistorier p {
+    font-family: Oswald-light;
+    color: var(--brand-color-third);
+}
+
 .beretning {
     grid-row: 2/2;
 }
@@ -150,6 +218,8 @@ h1 {
     display: none;
 }
 
+
+/* Kunder siger blok til desktop */
 @media (min-width: 600px) {
 
     #kundeHistorier {
@@ -158,7 +228,7 @@ h1 {
         grid-template-rows: 1fr 5fr;
         gap: 20px;
     }
-    #kundeHistorier>h2 {
+    #kundeHistorier h2 {
         grid-column: span 3;
         grid-row: 1/2;
     }
