@@ -9,6 +9,26 @@
     src: url(/fonts/oswald.light.ttf);
 }
 
+@font-face {
+    font-family: Lato-bold;
+    src: url(/fonts/Lato-Bold.ttf);
+}
+
+@font-face {
+    font-family: Lato-italic;
+    src: url(/fonts/Lato-Italic.ttf);
+}
+
+@font-face {
+    font-family: Lato-light;
+    src: url(/fonts/Lato-Light.ttf);
+}
+
+@font-face {
+    font-family: Lato-regular;
+    src: url(/fonts/Lato-Regular.ttf);
+}
+
 html {
     --brand-color-main: #5e854b;
     --brand-color-second: #f7f7f5;
