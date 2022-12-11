@@ -124,6 +124,7 @@ nav {
 footer {
     background-color: rgb(50, 50, 50);
     color: #fff;
+    
 }
 
 .footer_center_box {
@@ -148,6 +149,7 @@ footer {
     font-size: 0.8rem;
     padding: 2px 0px 2px 0px;
     color: #cbcbcb;
+    font-family: var(--secondary-font);
 }
 
 
