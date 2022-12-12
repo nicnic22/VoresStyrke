@@ -330,16 +330,9 @@ article {
         line-height: 1.7rem;
     }
 
-    #mobile_grid_content2 > a {
+    #grid_content > #mobile_grid_content2 > a {
         place-self: end;
-    }
-
-
-
-    #footer_grid_item2 {
-        display:grid;
-        grid-template-columns: 1fr;
-        grid-row: 1fr;
+        margin-right: 0px;
     }
 
     #icon_wrapper {
@@ -390,62 +383,65 @@ article {
 }
 
 /* Test af footer */
-
-.footer_grid_item1 {
-    grid-column: 2;
-    grid-row: 1;
+@media (min-width: 600px) {
+    .footer_grid_item1 {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    .footer_grid_item1 > h2 {
+        font-size: 1.5rem;
+        font-family: var(--primary-font);
+    }
+    
+    .footer_grid_item1 > p {
+        font-size: 1rem;
+    }
+    
+    .footer_grid_item2 {
+        grid-column: 1;
+        grid-row: 1;
+        display: grid;
+        grid-template-columns: repeat(2 1fr);
+        grid-template-rows: 0.5fr 2fr;
+        column-gap: 60px;
+    }
+    
+    .footer_grid_item2 > h2 {
+        font-size: 1.5rem;
+        font-family: var(--primary-font);
+    }
+    
+    #item2_1 > p {
+        font-size: 1rem;
+    }
+    
+    #item2_2 > p {
+        font-size: 1rem;
+    }
+    
+    .footer_grid_item3 {
+        grid-column: 3;
+        grid-row: 1;
+    }
+    
+    .footer_grid_item3 > h2 {
+        font-size: 1.5rem;
+        font-family: var(--primary-font);
+    }
+    
+    #item2_1 {
+        grid-column: 1;
+        grid-row: 2;
+    }
+    
+    #item2_2 {
+        grid-column: 2;
+        grid-row: 2;
+    }
 }
 
-.footer_grid_item1 > h2 {
-    font-size: 1.5rem;
-    font-family: var(--primary-font);
-}
 
-.footer_grid_item1 > p {
-    font-size: 1rem;
-}
-
-.footer_grid_item2 {
-    grid-column: 1;
-    grid-row: 1;
-    display: grid;
-    grid-template-columns: repeat(2 1fr);
-    grid-template-rows: 0.5fr 2fr;
-    column-gap: 60px;
-}
-
-.footer_grid_item2 > h2 {
-    font-size: 1.5rem;
-    font-family: var(--primary-font);
-}
-
-#item2_1 > p {
-    font-size: 1rem;
-}
-
-#item2_2 > p {
-    font-size: 1rem;
-}
-
-.footer_grid_item3 {
-    grid-column: 3;
-    grid-row: 1;
-}
-
-.footer_grid_item3 > h2 {
-    font-size: 1.5rem;
-    font-family: var(--primary-font);
-}
-
-#item2_1 {
-    grid-column: 1;
-    grid-row: 2;
-}
-
-#item2_2 {
-    grid-column: 2;
-    grid-row: 2;
-}
 
 
   
