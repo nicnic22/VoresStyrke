@@ -58,11 +58,14 @@ article {
     display: flex;
     margin-top: 20px;
     margin-bottom: 0px;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-content: center;
     color: var(--brand-color-main);
     font-size: 2rem;
     text-transform: uppercase;
+    text-align: center;
+
+    font-family: Lato-regular;
 }
 
 .icon {
@@ -337,6 +340,20 @@ article {
         display:grid;
         grid-template-columns: 1fr;
         grid-row: 1fr;
+    }
+
+    #icon_wrapper {
+        margin-bottom: 70px;
+        height: 50px;
+        gap: 20px;
+    }
+
+    #icon_wrapper p {
+        font-size: 1rem;
+    }
+
+    .icon {
+        width: 60px;
     }
 }
 
