@@ -49,8 +49,8 @@ article {
 
 #hero_knap:hover {
     background-color: var(--brand-color-third);
-    color: var(--brand-color-fourth);
-    scale: 1.1;
+    color: var(--brand-color-main);
+    /* scale: 1.1; */
     transition: 1s;
 }
 
@@ -119,8 +119,7 @@ article {
 
 #grid_content > div > a:hover {
     background-color: var(--brand-color-third);
-    color: var(--brand-color-fourth);
-    scale: 1.1;
+    color: var(--brand-color-main);
     transition: 1s;
 }
 
