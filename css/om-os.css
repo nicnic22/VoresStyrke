@@ -311,4 +311,8 @@ section#om-os>figure {
     .ekstra {
         display: block;
     }
+
+    .primaer {
+        border-right: 2px solid var(--brand-color-second);
+    }
 }
