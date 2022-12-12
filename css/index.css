@@ -49,8 +49,8 @@ article {
 
 #hero_knap:hover {
     background-color: var(--brand-color-third);
-    color: var(--brand-color-fourth);
-    scale: 1.1;
+    color: var(--brand-color-main);
+    /* scale: 1.1; */
     transition: 1s;
 }
 
@@ -91,7 +91,7 @@ article {
     font-family: Oswald-light;
 }
 
-span {
+#custom_1_ord {
     color: var(--brand-color-main);
     font-family: Oswald-regular;
     
@@ -119,8 +119,7 @@ span {
 
 #grid_content > div > a:hover {
     background-color: var(--brand-color-third);
-    color: var(--brand-color-fourth);
-    scale: 1.1;
+    color: var(--brand-color-main);
     transition: 1s;
 }
 
@@ -135,43 +134,106 @@ span {
 
 /* Video og Tina frederiksen blok */
 article {
-    margin-top: 50px;
+    margin-top: 80px;
     display: grid;
-    grid-template-columns: repeat(2 1fr);
-    gap: 40px;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 100px;
 }
 
-#video_content {
+article h3 {
+    font-family: Oswald-regular;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: var(--brand-color-main);
+}
+
+article p {
+    font-family: Oswald-light;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    color: var(--brand-color-fourth);
+}
+
+#videoContainer {
     grid-column: 1;
 }
 
 #content_tina {
     grid-column: 2;
+    align-self: center;
 }
+
 
 article video {
     width: 100%;
 }
 
+
+
 #content_tina_diplomer {
     display: grid;
-    grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 20fr;
+    margin-top: 40px;
 }
 
 #ikon_download {
     grid-column: 1;
+    display: grid;
+    grid-template-rows: repeat(3 1fr);
 }
+
+#ikon_download:nth-child(1) {
+    grid-row: 1;
+    grid-column: 1;
+    place-items: end;
+}
+#ikon_download:nth-child(2) {
+    grid-row: 2;
+    grid-column: 1;
+}
+#ikon_download:nth-child(3) {
+    grid-row: 3;
+    grid-column: 1;
+}
+
 
 #content_tina_diplomer > ul {
     grid-column: 2;
+    list-style: none;
 }
 
-article a {
+#content_tina_diplomer > ul li {
+    margin-bottom: 10px;
+}
+
+#content_tina_diplomer > ul a {
     font-family: Oswald-light;
+    font-size: 1.5rem;
+    margin-left: -30px;
+    text-decoration: none;
+    color: var(--brand-color-fourth);
+    transition: 0.8s;
+}
+
+#content_tina_diplomer > ul a:hover {
+    background-color: var(--brand-color-third);
+    padding: 4px 8px 3px 0px;
+    transition: 0.8s;
+}
+
+.custom_2_ord {
+    color: var(--brand-color-main);
+    font-family: Oswald-regular;
+    text-transform: uppercase;
+}
+
+#content_tina_diplomer > #ikon_download a {
+    width: 40px;
+
 }
 
 article img {
-    max-width: 30px;
+    width: 40px;  
 }
 
 /* Kunder siger blok ---- kode taget fra om os side --- mobile first design */
@@ -197,18 +259,17 @@ article img {
     font-size: 30px;
 }
 #kundeHistorier h3 {
-    font-style: italic;
     color: rgb(1, 57, 1);
 }
 #kundeHistorier h4 {
     font-weight: lighter;
-    font-style: italic;
     color: rgba(4, 64, 4, 0.812);
 }
 
 #kundeHistorier p {
     font-family: Oswald-light;
-    color: var(--brand-color-third);
+    font-style: italic;
+    color: var(--brand-color-second);
 }
 
 .beretning {
@@ -240,3 +301,6 @@ article img {
     }
 
 }
+
+  
+  
