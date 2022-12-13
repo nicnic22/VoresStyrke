@@ -45,6 +45,16 @@ html {
     /* font-family: Oswald-light; */
 }
 
+h1 {
+    font-size: 54px;
+    font-family: var(--primary-font);
+}
+
+p {
+    font-size: 1rem;
+    font-family: var(--secondary-font);
+}
+
 img {
     width: 100%;
     height: 100%;
