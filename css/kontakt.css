@@ -90,10 +90,6 @@ strong {
   color: #d3d4d3;
 }
 
-.box3 > p {
-  color: #d3d4d3;
-}
-
 .box1 > p {
   font-weight: bold;
 }
@@ -111,6 +107,38 @@ a {
 .box3 :hover {
   transform: scale(1.03);
   letter-spacing: 1px;
+}
+
+/* Dine styles her */
+form {
+  padding: 30px;
+  background-color: #757576;
+  border-radius: 8px;
+  font-family: lato-regular;
+  margin: 20px;
+}
+
+label,
+input,
+select,
+h3,
+textarea {
+  display: block;
+}
+
+.from-felt {
+  display: grid;
+  gap: 2rem;
+  padding: 10px;
+}
+
+button {
+  margin-top: 20px;
+}
+
+#form > h3 {
+  color: black;
+  margin: 0;
 }
 
 @media (min-width: 600px) {
