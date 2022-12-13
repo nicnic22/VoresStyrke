@@ -2,21 +2,150 @@ main {
   margin: 20px;
   padding: 10px;
   gap: 20px;
+  max-width: 1000px;
 }
 
 h1 {
   font-family: Oswald-regular;
   font-size: 50px;
   margin: 20px;
+  line-height: 1.25;
+}
+
+h3 {
+  font-family: Oswald-regular;
+  font-size: 30px;
+  margin: 10px;
+  line-height: 1.25;
+}
+
+article {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 20px;
+}
+
+.p2,
+.p1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
 }
 
 .p1,
-.p2 {
+.p2,
+p {
   font-family: Lato-regular;
-  margin: 20px;
+  color: #5a5a5b;
   gap: 10px;
 }
 
 strong {
   color: #5e854b;
+}
+
+.wrapper {
+  margin: 10px auto;
+  padding: 20px;
+  padding-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.container {
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  align-items: baseline;
+}
+
+.box1 {
+  height: 140px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #d3d4d3;
+}
+
+.box2 {
+  height: 140px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #5e854b;
+}
+
+.box3 {
+  height: 140px;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #5a5a5b;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr;
+  margin: 20px;
+}
+
+.box2 > p > a {
+  color: #d3d4d3;
+}
+
+.box1 > p {
+  font-weight: bold;
+}
+
+a {
+  color: #5e854b;
+}
+
+.wrapper > a {
+  color: #d3d4d3;
+}
+
+.box1 :hover,
+.box2 :hover,
+.box3 :hover {
+  transform: scale(1.03);
+  letter-spacing: 1px;
+}
+
+/* Dine styles her */
+form {
+  padding: 30px;
+  background-color: #757576;
+  border-radius: 8px;
+  font-family: lato-regular;
+  margin: 20px;
+}
+
+label,
+input,
+select,
+h3,
+textarea {
+  display: block;
+}
+
+.from-felt {
+  display: grid;
+  gap: 2rem;
+  padding: 10px;
+}
+
+button {
+  margin-top: 20px;
+  font-family: lato-regular;
+  color: brand-color-fourth;
+}
+
+#form > h3 {
+  color: black;
+  margin: 0;
+}
+
+@media (min-width: 600px) {
+  .wrapper {
+    padding: 20px;
+  }
 }
