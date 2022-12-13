@@ -1,5 +1,6 @@
 .red-text {
-    color: rgb(230, 14, 14)
+    color: rgb(230, 14, 14);
+    padding-top: 20px;
 }
 
 #textbox {
