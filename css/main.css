@@ -50,6 +50,11 @@ h1 {
     font-family: var(--primary-font);
 }
 
+h2 {
+    font-size: 48px;
+    font-family: var(--primary-font);
+}
+
 p {
     font-size: 1rem;
     font-family: var(--secondary-font);
