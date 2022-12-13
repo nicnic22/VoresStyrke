@@ -1,0 +1,10 @@
+#black-box-wrapper {
+    width: auto;
+    background-color: #000;
+    color: #ededed;
+}
+
+#grid-singlepage-maintext {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
