@@ -64,6 +64,12 @@ strong {
   background-color: #d3d4d3;
 }
 
+.box1 > p {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .box2 {
   height: 140px;
   padding: 20px;
@@ -84,14 +90,12 @@ strong {
   display: grid;
   grid-template-columns: 1.5fr 1.5fr;
   margin: 20px;
+  gap: 10px;
 }
 
 .box2 > p > a {
   color: #d3d4d3;
-}
-
-.box1 > p {
-  font-weight: bold;
+  font-size: 20px;
 }
 
 a {
@@ -126,6 +130,24 @@ textarea {
   display: block;
 }
 
+input[type="text"] {
+  width: 100%;
+  padding: 12px 20px;
+  /*margin: 8px 0;*/
+  box-sizing: border-box;
+}
+
+input[type="e-mail"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+textarea {
+  width: 100%;
+}
+
 .from-felt {
   display: grid;
   gap: 2rem;
@@ -142,15 +164,39 @@ button {
 #form > h3 {
   color: black;
   margin: 0;
+  padding-bottom: 10px;
 }
 
-.article-form {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
-}
 img {
   height: auto;
   width: 100%;
+}
+
+.formfeltcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 30px;
+}
+
+input {
+  width: 100%;
+}
+
+input[type="text"] {
+  width: 100%;
+}
+
+figure {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 860px) {
+  .formfeltcontainer,
+  .info {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
 }
 
 @media (min-width: 600px) {
