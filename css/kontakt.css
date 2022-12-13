@@ -153,6 +153,18 @@ img {
   width: 100%;
 }
 
+.formfeltcontainer {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 20px;
+}
+
+@media (max-width: 860px) {
+  .formfeltcontainer {
+    grid-template-columns: 1fr;
+  }
+}
+
 @media (min-width: 600px) {
   .wrapper {
     padding: 20px;
