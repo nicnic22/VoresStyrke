@@ -186,6 +186,11 @@ input[type="text"] {
   width: 100%;
 }
 
+figure {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 @media (max-width: 860px) {
   .formfeltcontainer,
   .info {
