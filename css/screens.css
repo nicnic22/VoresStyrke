@@ -27,6 +27,16 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .ul-menu li a {
+    font-size: 1.2rem;
+    letter-spacing: 3.2px;
+  }
+}
+
+
+
+/* Estefania's kode */
 @media (max-width: 1000px) {
   #flex-wrapper {
     grid-template-columns: 1fr 1fr;
