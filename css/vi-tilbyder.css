@@ -1,6 +1,26 @@
+.primary-font {
+    font-family: var(--primary-font);
+}
+
 .red-text {
     color: rgb(230, 14, 14);
     padding-top: 20px;
+}
+
+.red-text2 {
+    color: rgb(230, 14, 14);
+    font-size: 18px;
+    padding-top: 50px;
+}
+
+.feedback-header {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.small-grey {
+    color: rgb(202, 202, 202);
+    font-size: 14px;
 }
 
 #textbox {
@@ -35,4 +55,17 @@
 .workout-text {
     padding: 10px;
     background-color: #fff;
+}
+
+
+
+
+#customer-feedback {
+    background-color: rgb(56 56 56);
+}
+
+.feedback-box {
+    padding: 8%;
+    color: #fff;
+    text-align: center;
 }
