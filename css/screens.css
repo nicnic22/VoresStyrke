@@ -34,6 +34,13 @@
   }
 }
 
+@media (max-width: 1000px) {
+  .grid-tilbyder {
+    grid-template-columns: 1fr 1fr;
+  
+  }
+}
+
 
 
 /* Estefania's kode */
