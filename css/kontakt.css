@@ -64,6 +64,12 @@ strong {
   background-color: #d3d4d3;
 }
 
+.box1 > p {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .box2 {
   height: 140px;
   padding: 20px;
@@ -88,10 +94,7 @@ strong {
 
 .box2 > p > a {
   color: #d3d4d3;
-}
-
-.box1 > p {
-  font-weight: bold;
+  font-size: 20px;
 }
 
 a {
@@ -144,10 +147,6 @@ button {
   margin: 0;
 }
 
-.article-form {
-  display: grid;
-  grid-template-columns: 1fr 1.5fr;
-}
 img {
   height: auto;
   width: 100%;
