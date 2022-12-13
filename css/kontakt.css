@@ -44,8 +44,8 @@ strong {
 }
 
 .wrapper {
-  margin: 10px auto;
-  padding: 20px;
+  margin: 10px;
+  padding: 10px;
   padding-bottom: 10px;
   text-transform: capitalize;
 }
@@ -136,7 +136,8 @@ textarea {
 button {
   margin-top: 20px;
   font-family: lato-regular;
-  color: brand-color-fourth;
+  color: black;
+  background-color: #5e854b;
 }
 
 #form > h3 {
