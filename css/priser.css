@@ -2,7 +2,23 @@
   box-sizing: border-box;
 }
 
-/* Create three columns of equal width */
+h1 {
+  font-family: Oswald-regular;
+  font-size: 50px;
+  margin: 20px;
+  margin-top: 20px;
+}
+
+main {
+  margin: 20px;
+  padding: 10px;
+  gap: 20px;
+}
+
+p {
+  font-family: Lato-regular;
+  padding: 20px;
+}
 
 #flex-wrapper {
   display: grid;
@@ -10,17 +26,19 @@
 }
 
 .flex-container {
-  padding: 10px;
+  padding: 20px;
 }
 
-@media (max-width: 968px) {
-  .header {
-    height: 80px;
+
+
+@media (max-width: 860px) {
+  #flex-wrapper {
+    grid-template-columns: 1fr;
   }
 }
 
-/* Style the list */
 .price {
+  font-family: Lato-regular;
   list-style-type: none;
   border: 1px solid #eee;
   margin: 0;
@@ -29,40 +47,38 @@
   transition: 0.3s;
 }
 
-/* Add shadows on hover */
+.header {
+  font-family: Oswald-regular;
+}
 .price:hover {
   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
 .button:hover {
   background-color: grey;
-  color: green;
+  color: var(--brand-color-main);
   transition: 1s;
 }
 
-/* Pricing header */
 .price .header {
   background-color: #111;
   color: white;
   font-size: 25px;
 }
 
-/* List items */
 .price li {
   border-bottom: 1px solid #eee;
   padding: 20px;
   text-align: center;
 }
 
-/* Grey list item */
 .price .grey {
   background-color: #eee;
   font-size: 20px;
 }
 
-/* The "Sign Up" button */
 .button {
-  background-color: #48763b;
+  background-color: var(--brand-color-main);
   border: none;
   color: white;
   padding: 10px 25px;
@@ -72,15 +88,11 @@
   transition: 1s;
 }
 
-/* Change the width of the three columns to 100%
-(to stack horizontally on small screens) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 860px) {
   .columns {
     width: 100%;
   }
 }
-/* FAQs */
-
 .faq-body {
   display: none;
 }
