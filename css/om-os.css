@@ -34,7 +34,12 @@ main#om-os {
     margin: 0px 20px;
 }
 #om-os-del1 h2 {
+    font-size: 2.5rem;
     color: var(--brand-color-main);
+    padding-bottom: 20px;
+}
+#om-virksomhed {
+    line-height: 1.2rem;
 }
 #om-os-del1>figure {
     display: grid;
@@ -80,9 +85,12 @@ main#om-os {
 }
 #om-os-del2 h2 {
     color: var(--brand-color-main);
+    padding-bottom: 20px;
+    font-size: 2.5rem;
 }
 #om-filosofi {
     grid-column: 1/2;
+    line-height: 1.2rem;
 }
 #om-os-del2>figure {
     grid-column: span 2;
@@ -120,7 +128,7 @@ main#om-os {
         font-weight: bold;
         font-size: 2.2rem;
         place-self: center;
-        padding: 0px 165px;
+        padding: 0px 155px;
     }
 }
 #nyeTraenere h3 {
@@ -182,7 +190,7 @@ main#om-os {
 #om-os_til-kontakt>.text {
     grid-column: 1/2;
     grid-row: 3;
-    line-height: 1rem;
+    line-height: 1.2rem;
 }
 #kontakt-knap {
     align-self:  end;
@@ -212,16 +220,16 @@ main#om-os {
     margin-bottom: 10px;
 }
 .kvadrat-pic1 {
-    grid-column: 1/2;
-    grid-row: 1/2;
+    display: none;
 }
 .kvadrat-pic2 {
-    grid-column: 3/4;
-    grid-row: 1/2;
+    display: none;
 }
 .lang-pic1 {
-    grid-column: 2/3;
+    grid-column: 1/5;
     grid-row: 1/2;
+    height: 180px;
+    object-fit: cover;
 }
 
 /*om-os fjerde section (Vores kunder siger)*/
@@ -269,6 +277,7 @@ main#om-os {
     }
     #om-os>h1 {
         margin-top: 20px;
+        margin-left: 20px;
         font-size: 5rem;
         color: var(--brand-color-main);
         background-color: white;
@@ -448,7 +457,7 @@ main#om-os {
     #kundeHistorier {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 1fr 5fr;
+        grid-template-rows: 1fr 4fr;
         gap: 10px;
     }
     #kundeHistorier>h2 {
