@@ -29,19 +29,49 @@
 
 }
 
+
+@media (max-width: 700px) {
+  #grid-singlepage-maintext {
+    grid-template-columns: 1fr;
+  }
+
+  #white-line-box {
+    margin: auto;
+    padding-top: 40px;
+  }
+}
+
+
+
+
 @media (min-width: 1200px) {
   .ul-menu li a {
     font-size: 1.2rem;
     letter-spacing: 3.2px;
   }
+  #header {
+    height: 114px;
+  }
 }
+
+@media (max-width: 1200px) {
+  #header {
+    height: 106px;
+  }
+}
+
 
 @media (max-width: 1000px) {
   .grid-tilbyder {
     grid-template-columns: 1fr 1fr;
   
   }
+
 }
+
+
+
+
 
 
 
