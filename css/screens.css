@@ -26,9 +26,3 @@
     padding: 0px 4px 0px 4px;
   }
 }
-
-@media (max-width: 1000px) {
-  #flex-wrapper {
-    grid-template-columns: 1fr 1fr;
-  }
-}
