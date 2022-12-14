@@ -39,3 +39,30 @@
 .weeks {
     font-size: 1.2rem;
 }
+
+
+
+
+
+.bottom-text-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.bold {
+    font-family: var(--primary-font);
+    padding: 40px 0px 10px 0px;
+}
+
+.bottom-image {
+    padding: 0 0 5% 5%;
+}
+
+.image-container {
+    padding: 5% 5% 2% 5%;
+}
+
+.italic-text {
+    padding: 5% 5% 2% 5%;
+}

@@ -92,6 +92,7 @@ nav {
     background-color: var(--brand-color-second);
     transition: background-color 0.24s linear; /* fade-in effekt på menu hover */
     border-left: 1px solid #d2d2d2;
+    z-index: 1;
 }
 
 .ul-menu li a {

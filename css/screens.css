@@ -39,6 +39,24 @@
     margin: auto;
     padding-top: 40px;
   }
+
+  .bottom-text-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .image-container {
+    padding: 5% 4% 2% 4%;
+  }
+
+  .italic-text {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .bottom-text {
+    padding: 0 40px 0 40px;
+  }
 }
 
 
